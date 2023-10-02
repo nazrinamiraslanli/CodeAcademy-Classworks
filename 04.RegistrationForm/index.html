@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+    } th,td {padding: 5px;}
+  </style>
+  <body>
+    <form action="">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Registration Form</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label for="name">Student name</label></td>
+            <td><input type="text" name="" id="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="father">Father's Name</label></td>
+            <td><input type="text" name="" id="father" /></td>
+          </tr>
+          <tr>
+            <td><label for="mother">Mother's Name</label></td>
+            <td><input type="text" name="" id="mother" /></td>
+          </tr>
+          <tr>
+            <td><label for="date">Date of Birth</label></td>
+            <td><input type="datetime-local" name="" id="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="gerder">Gerder</label></td>
+            <td>
+              <label for="male">male</label>
+              <input type="radio" name="male" id="male" />
+              <label for="female">female</label>
+              <input type="radio" name="male" id="female" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email ID</label></td>
+            <td><input type="text" name="" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="mobile">Mobile No</label></td>
+            <td><input type="number" name="mobile" id="mobile" /></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td>
+              <textarea
+                name="address"
+                id="adress"
+                cols="20"
+                rows="3"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="state">State</label></td>
+            <td><input type="text" name="state" id="state" /></td>
+          </tr>
+          <tr>
+            <td><label for="city">City</label></td>
+            <td><input type="text" name="city" id="city" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Submit" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
