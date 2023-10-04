@@ -29,3 +29,11 @@ h6{
 h4{
     color: aqua;
 }
+.headd{
+    background-color: rgb(67, 197, 154);}
+    table,tr,td,th{
+        border: 1px solid rgb(49, 98, 172);
+        border-collapse: collapse;
+        width: 500;
+        height: 400;
+    }
