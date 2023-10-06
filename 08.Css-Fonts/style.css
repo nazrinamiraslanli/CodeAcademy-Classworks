@@ -1,0 +1,80 @@
+.lorem1{
+    font-family: 'Martian Mono', monospace;
+    color: rgb(33, 33, 92);
+    font-size: 40px;
+    text-decoration: underline;
+    letter-spacing: 20px;
+}
+.lorem2{
+    color: rgb(144, 86, 199);
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 2px 2px royalblue;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.lorem3{
+    color: green;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
+.lorem4{
+    color: rgb(144, 86, 199);
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.lorem5{
+    color: green;
+    font-family: 'Martian Mono', monospace;
+    font-size: 50px;
+}
+.lorem6{
+    color: rgb(33, 33, 92); 
+    text-decoration: underline; 
+}
+.lorem7{
+    color: green;
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.lorem8{
+    color: rgb(33, 33, 92);
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+}
+.lorem9{
+    color: orange;
+   font-family: 'Martian Mono', monospace;
+   font-family: 'Roboto Mono', monospace;
+   text-decoration: overline;
+   text-transform: uppercase;
+   font-size: 30px;
+}
+.lorem10{
+    color: green;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+}
+.lorem11{
+    color: red;
+    font-family: 'Monoton', cursive;
+    text-decoration-color: brown;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.lorem12{
+    color: green;
+    font-family: 'Monoton', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+.lorem13{
+    color: rgb(0, 204, 255);
+    font-family: 'Martian Mono', monospace;
+    font-size: 18px;
+}
+.lorem14{
+    color: green;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
