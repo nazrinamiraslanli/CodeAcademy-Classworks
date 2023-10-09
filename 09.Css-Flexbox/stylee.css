@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, violet,  red );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+
+}
+.instagram{
+    background-color: rgb(247, 234, 198);
+    border: 1px solid black;
+    height: 50%;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+}
+.p{
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: 'Gabarito', cursive;
+}
+i, .log{
+    color: rgb(38, 38, 146);
+}
+.log{
+    font-family: 'Dela Gothic One', cursive;
+}
+.divp{
+    border: 1px blaCK;
+}
+.but{
+    color: white;
+    background-color: blue;
+    padding: 5px 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
