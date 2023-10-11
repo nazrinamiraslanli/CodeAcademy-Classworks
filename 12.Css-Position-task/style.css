@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  background-image: url("./Center_New_York_City.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  
+}
+.main {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30px;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+
+}
+.main h2{
+    color:green;
+}
+.box{
+    background-color: aquamarine;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    column-gap: 50px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: rgb(52, 224, 224);
+    width: 800px;
+    height: 170px;
+
+}
