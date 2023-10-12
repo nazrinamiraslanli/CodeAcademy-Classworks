@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height:300vh;
+}
+.div1{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(240, 223, 166);
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.div2{
+    margin: 50px;
+    width: 1300px;
+    height: 15vh;
+    background-color: rgb(130, 190, 175);
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+}
+.div3{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(209, 133, 162);
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.div4{
+    margin-top: 50px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(160, 133, 209);
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
