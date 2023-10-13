@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(50, 80, 50);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+h3{
+   font-size: 38px;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 45px;
+}
+.header nav ul li a{
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+.but1{
+    color:rgb(50, 80, 50);
+    background-color: rgb(137, 168, 137);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.but2{
+    color: white;
+    background-color:rgb(50, 80, 50); 
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-size: 35px;
+}
+.team p{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.people{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    column-gap: 25px;
+    flex-wrap: wrap;
+}
+.person{
+    width: 250px;
+    height: 400px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name p{
+    font-size: 25px;
+    color: grey;
+}
+.person:hover{
+   opacity: 0.7;
+}
+.footer{
+    background-color: rgb(50, 80, 50);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    column-gap: 25px;
+    color: white;
+}
+.main h5{
+    font-size: 28px;
+}
+.link nav ul li{
+    list-style: none;
+}
+.quickly{
+    row-gap: 25px;
+}
+.link nav ul li a{
+    border: none;
+    color: white;
+    row-gap: 15px;
+}
+.link nav ul li a:hover{
+    text-decoration: underline;
+}
