@@ -8,9 +8,12 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-.header{
+header{
     background-color: rgb(50, 80, 50);
     color: white;
+    
+}
+.header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,6 +32,7 @@ h3{
 }
 .header nav ul li a{
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .button{
     display: flex;
@@ -49,6 +53,9 @@ h3{
     padding: 5px;
     border-radius: 5px;
     border: none;
+}
+.menu{
+    display: none;
 }
 .section{
     display: flex;
@@ -79,7 +86,7 @@ h4{
     flex-wrap: wrap;
 }
 .person{
-    width: 250px;
+    width: 20%;
     height: 400px;
 }
 .name{
@@ -118,6 +125,12 @@ h4{
 .quickly{
     row-gap: 25px;
 }
+.icons i{
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    border-radius: 50% ;
+}
 .link nav ul li a{
     border: none;
     color: white;
@@ -126,3 +139,63 @@ h4{
 .link nav ul li a:hover{
     text-decoration: underline;
 }
+@media screen and (max-width: 1200px) {
+    .container{
+        padding: 0 5%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .header nav,
+    .header .button{
+        display: none;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .menu{
+        display: flex;
+        color:white;
+    }
+    
+}
+@media screen and (max-width: 1023px) {
+    .person{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    
+    .quickly{
+        justify-content: center;
+    }
+   
+}
+@media screen and (max-width: 1023px) {
+    .footer{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .people{
+        justify-content: center;
+    }
+@media screen and (max-width: 767px) {
+    .person{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .main{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
