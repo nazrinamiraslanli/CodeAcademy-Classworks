@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section{
+    background-image: url("./image\ 3.svg");
+    height: 100vh;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.header nav ul li a{
+   color: white;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.make{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    flex-wrap: wrap;
+    margin: 100px;
+    
+}
+h1{
+    font-size: 30px;
+}
