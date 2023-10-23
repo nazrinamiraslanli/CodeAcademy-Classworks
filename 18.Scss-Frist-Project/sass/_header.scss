@@ -1,0 +1,14 @@
+header{
+    background-color: purple;
+    .header{
+        @include flexbox();
+        nav{
+            ul{
+                display:flex;
+                li{
+                    color:white;
+                }
+            }
+        }
+    }
+}
