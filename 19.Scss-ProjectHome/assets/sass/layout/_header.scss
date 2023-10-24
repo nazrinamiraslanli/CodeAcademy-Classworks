@@ -1,5 +1,22 @@
 header {
   .header {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h3 {
+      color: #252b42;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 30px;
+        li {
+          a {
+            color: #737373;
+          }
+        }
+      }
+    }
+    color: #252b42;
   }
 }
