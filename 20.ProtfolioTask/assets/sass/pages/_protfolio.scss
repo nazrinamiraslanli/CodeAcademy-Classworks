@@ -1,0 +1,92 @@
+.section {
+  background-color: #28293e;
+  .portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    p {
+      max-width: 570px;
+      text-align: center;
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+  }
+}
+.main {
+  background-color: #fdf0e9;
+  padding: 10px;
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    nav {
+      ul {
+        display: flex;
+        gap: 40px;
+        li {
+          a {
+            color: #391400;
+          }
+        }
+      }
+    }
+  }
+  .boxs {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    .box {
+      width: 30%;
+      height: 416px;
+      background-image: url("../images/Bitmap\ \(2\).svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      border-radius: 7px;
+      transition: all 1.5s;
+
+      .desing {
+        padding: 50px;
+      }
+      &:hover{
+        translate: rotate(1.5s);
+      }
+    }
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  #boy{
+    background-color:#EF6D58 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    gap: 50px;
+    .texts{
+        width: 50%;
+        padding: 20px;
+      
+      }
+      .help{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+  }
+
+}

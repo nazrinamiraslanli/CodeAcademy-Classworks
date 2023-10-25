@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+}
+
+h2 {
+  color: white;
+  font-size: 56px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.contact {
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+  width: 80px;
+  border: 1px solid white;
+}
+
+.sofa {
+  width: 100px;
+  padding: 10px;
+  border-radius: 50px;
+  color: #391400;
+  border: 1px solid #391400;
+}
+
+.lead {
+  color: #391400;
+  padding: 10px;
+  width: 170px;
+  font-weight: bolder;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header nav ul {
+  display: flex;
+  gap: 40px;
+}
+header .header nav ul li a {
+  color: white;
+}
+
+.section {
+  background-color: #28293e;
+}
+.section .portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.section .portfolio p {
+  max-width: 570px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.main {
+  background-color: #fdf0e9;
+  padding: 10px;
+}
+.main .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.main .text nav ul {
+  display: flex;
+  gap: 40px;
+}
+.main .text nav ul li a {
+  color: #391400;
+}
+.main .boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.main .boxs .box {
+  width: 30%;
+  height: 416px;
+  background-image: url("../images/Bitmap (2).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 7px;
+  transition: all 1.5s;
+}
+.main .boxs .box .desing {
+  padding: 50px;
+}
+.main .boxs .box:hover {
+  translate: rotate(1.5s);
+}
+.main .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.main #boy {
+  background-color: #EF6D58;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px;
+  gap: 50px;
+}
+.main #boy .texts {
+  width: 50%;
+  padding: 20px;
+}
+.main #boy .help {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}/*# sourceMappingURL=main.css.map */
